@@ -1,0 +1,52 @@
+.registerr{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/256424/pexels-photo-256424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/256424/pexels-photo-256424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-size: cover;
+}
+
+.registerrTitle{
+    font-size: 50px;
+}
+
+.registerrForm{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerrForm>label{
+    margin: 10px 0;
+}
+
+.registerrInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerrButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.registerrLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px; 
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
